@@ -1,0 +1,16 @@
+<student>
+	<h:table xmlns:h="http://www.w3c.org/6th">
+		<h:sem>6th</h:sem>
+		<h:id>015</h:id>
+		<h:name>Yatrik</h:name>
+		<h:result>8.60</h:result>
+	</h:table>
+	
+	<f:table xmlns:f="http://www.w3c.org/4th">
+		<f:sem>4th</f:sem>
+		<f:id>015</f:id>
+		<f:name>Yatrik</f:name>
+		<f:result>8.58</f:result>
+	</f:table>
+	
+</student>

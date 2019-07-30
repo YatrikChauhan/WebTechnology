@@ -1,0 +1,97 @@
+<html>
+<head>
+<style>
+#box{
+text-align:center; 
+font-size:30px; 
+float:center;
+padding:10px;
+border:2px solid black;
+background-color:tan;
+height:300px;
+position:relative;
+top:10px;
+left:650px;
+width:500px;
+}
+#display{
+width:20px;
+position:relative;
+top:10px;
+left:160px;
+height:20px;
+}
+#display input{
+position:relative;
+top:2px;
+right:15px;
+font-size:18px;
+text-align:right;
+background-color::gray;
+}
+button{
+margin:5px;
+padding:10px;
+}
+button:hover
+{
+	background-color:skyblue;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center; border:2px solid black;">Simple Calculator</h1>
+<div id="box"> 
+<div id="display"><input type="text" readonly size="25" id="i"></div><p>
+<button onclick='d()' value="D" >DELETE</button>
+<button onclick='c("")' value="C" >CE</button><br>
+<button onclick='v("1")' value="1">1</button>
+<button onclick='v("2")' value="2">2</button>
+<button onclick='v("3")' value="3">3</button>
+<button onclick='v("+")' value="+">+</button><br>
+<button onclick='v("4")' value="4">4</button>
+<button onclick='v("5")' value="5">5</button>
+<button onclick='v("6")' value="6">6</button>
+<button onclick='v("-")' value="-">-</button><br>
+<button onclick='v("7")' value="7">7</button>
+<button onclick='v("8")' value="8">8</button>
+<button onclick='v("9")' value="9">9</button>
+<button onclick='v("*")' value="*">*</button><br>
+<button onclick='v("0")' value="0">0</button>
+<button onclick='v(".")' value=".">.</button>
+<button onclick='e()' value="=">=</button>
+<button onclick='v("/")' value="/">/</button>
+</div>
+<script>
+function c(val)
+{
+document.getElementById("i").value=val;
+}
+function v(val)
+{
+document.getElementById("i").value+=val;
+}
+function d()
+{
+	var str1 = document.getElementById("i").value;
+	var len = str1.length;
+	console.log(len);
+	if(len>0)
+	{
+		str1 = str1.substring(0,len-1);
+	}
+	document.getElementById("i").value=str1;
+}
+function e()
+{
+try{
+	c(eval(document.getElementById("i").value))
+}
+catch(e)
+{
+	c('Error')
+}
+}
+</script>
+</body>
+</html>

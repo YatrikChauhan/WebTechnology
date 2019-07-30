@@ -1,0 +1,39 @@
+#demo
+{
+    background-color:green;
+    height:60px;
+    font-size:20;
+    overflow:auto;	
+    border:2px solid black;	   
+}
+
+#demo ul
+{
+    list-style-type:none;
+    text-align:center;
+    
+    
+}
+#demo li
+{
+    display:inline;
+    padding:0;
+    float:left;
+    text-align:left;
+    padding-right:40;
+    border:2px solid black;	   
+    
+}
+#demo a
+{
+    color:white;
+    text-decoration:none;
+    vertical-align:middle;
+  
+    
+}
+#demo a:hover
+{
+    color:black;
+    background-color:white;
+}

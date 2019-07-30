@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h1{
+		text-align:center;
+		text-decoration:underline;
+		font-family: arial;
+		font-size:40px;
+	}
+	#display{
+		border:2px solid black;
+		font-size:20px;
+		text-align:center;
+		padding:10px;
+	}
+</style>
+<script src="jsregform.js"></script>
+</head>
+<body>
+<h1>Registration form</h1>
+<br>
+<div id="display">
+<form name="regform" onsubmit="return check();">
+<div>
+First Name:<input type="text" name="FName"></input><br><br>
+Last Name:<input type="text" name="LName" ></input><br><br>
+Password:<input type="password" name="pass" ></input><br><br>
+Email:<input type="text" name="mail"  ></input><br><br>
+Phone:<input type="tel" name="mobile" ></input><br><br>
+Age:<input type="number" name="dob" ></input><br><br>
+Gender:<input type="radio" name="male">Male
+		<input type="radio" name="female">Female<br><br>
+Hobbies:<select name="list" value="">
+			<option value="Reading">Reading</option>
+			<option value="Writting">Writting</option>
+			<option value="Drawing">Drawing</option>
+			<option value="Cricket">Cricket</option>
+			<option value="Singing">Singing</option>
+		</select><br><br>
+<input type="submit" name="submit" value="submit"></input>
+</div>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body
+{
+    
+    background-color: skyblue;
+    background-repeat:no-repeat;
+    background-size: 1600px 1300px;
+}
+
+#m
+{
+    
+    text-align: center;
+    font-family:Arial;
+    font-size: 30px;
+    
+}
+
+#n
+{
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+}

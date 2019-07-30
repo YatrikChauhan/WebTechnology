@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT student (id,name,contact,sem,result,body)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT sem (#PCDATA)>
+<!ELEMENT result (#PCDATA)>
+<!ATTLIST contact address CDATA #REQUIRED>
+<!ELEMENT body (#PCDATA)>
+<!ENTITY title "WEB TECHNOLOGY">
+<!ENTITY nbsp "&#160;">

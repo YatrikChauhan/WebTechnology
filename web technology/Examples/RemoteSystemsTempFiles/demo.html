@@ -1,0 +1,37 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<script type="text/javascript">
+			function fun(str)
+			{
+				var i = str.length();
+				var flag = 0;
+				var first = -1;
+				for(j=0;j<i;j++)
+				{
+					chr = str.charAt(i);
+					if(ch=='a')
+					{
+						if(first == -1)
+							first = i;
+						last = i;
+						flag = -1;
+					}
+				}
+				if(flag == -1)
+				{
+					document.write("The position of first a is:"+(first+1)+"<br>");
+					document.write("The position of last a is:"+(first+1)+"<br>");
+					document.write("String between them is:"str.substring(first,last)"<br>");
+				}
+			}
+		</script>
+	<head>
+	<body>
+		<script type="text/javascript">
+			var str = prompt("Enter String here..");
+			fun(str);
+		</script>
+	</body>
+<html>

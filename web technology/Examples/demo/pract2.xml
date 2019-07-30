@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pract2.xsd">
+	<movie>
+		<title>Inception</title>
+		<Release-date>2010-07-16</Release-date>
+		<country>USA</country>
+		<genre>Thriller</genre>
+		<Director>Christopher_Nolan</Director>
+		<casts>
+			<Actor>
+				<name>Leonardo DiCaprio</name>
+				<role>cobb</role>
+			</Actor>
+			<Actor>
+				<name>Ellen Page</name>
+				<role>Ariadne</role>
+			</Actor>
+		</casts>
+	</movie>
+	<movie>
+		<title>Uri</title>
+		<Release-date>2019-01-11</Release-date>
+		<country>India</country>
+		<genre>Thriller</genre>
+		<Director>Aditya Dhar</Director>
+		<casts>
+			<Actor>
+				<name>Vicky Kaushal</name>
+				<role>Major Vihan</role>
+			</Actor>
+			<Actor>
+				<name>Yami Gautam</name>
+				<role>Detective</role>
+			</Actor>
+			<Actor>
+				<name>Paresh Rawal</name>
+				<role>Ajit Doval</role>
+			</Actor>
+		</casts>
+	</movie>
+</movies>

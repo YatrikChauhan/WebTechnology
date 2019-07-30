@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE Book-store SYSTEM "pract1.dtd">
+<Book-store>
+	<book category="web">
+		<title>Web Technology</title>
+		<author>Erik T. Ray</author>
+		<year>2005</year>
+		<price>Rs.250</price>
+	</book>
+	<book category="Java">
+		<title>Advanced Java</title>
+		<author>James Gosling</author>
+		<year>1998</year>
+		<price>Rs.1050</price>
+	</book>
+	<book category="Dot Net">
+		<title>Dot Net with C#</title>
+		<author>Anil Prajapati</author>
+		<year>2003</year>
+		<price>Rs.200</price>
+	</book>
+</Book-store>

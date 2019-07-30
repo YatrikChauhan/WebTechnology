@@ -1,0 +1,31 @@
+	menu{
+		width:100%;
+		background:green;
+		overflow:auto;
+	}
+	.menu ul{
+		margin:0px;
+		padding:0px;
+		list-style:none;
+		line-height:60px;
+	}
+	.menu li{
+		float:left;
+		margin-bottom:20px;
+	}
+	.menu ul li a{
+		background:darkblue;
+		width:185px;
+		text-decoration:none;
+		display:block;
+		text-align:center;
+		font-size:20px;
+		font-family:sans-serif;
+		color:red;
+		border:2px solid black;
+		word-spacing:120px;
+	}
+	.menu a:hover{
+		color:black;
+		background-color:white;
+	}

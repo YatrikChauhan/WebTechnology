@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <script type="text/javascript">
+        function display() {
+            var webappe = "";
+            for (i = 0; i < document.all.length; i++) {
+                webappe += "<br>" + document.all[i].tagName;
+                pmsg.innerHTML += webappe;
+            }
+        }
+    </script>
+</head>
+<body onload="display()">
+    <p id="pmsg"></p>
+</body>
+</html>

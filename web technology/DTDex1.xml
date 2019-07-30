@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<student>
+	<id>015</id>
+	<name>Yatrik</name>
+	<contact address="Surat">8153054708</contact>
+	<sem>5</sem>
+	<result>8.60</result>
+</student>

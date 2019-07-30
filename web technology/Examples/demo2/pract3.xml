@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rule.xsl" ?>
+<student>
+	<s>
+		<name>Yatrik Chauhan</name>
+		<AJT>28</AJT>
+		<WT>21</WT>
+		<Dot-Net>23</Dot-Net>
+		<SE>22</SE>
+		<DCDR>26</DCDR>
+		<Total>120</Total>
+	</s>
+	<s>
+		<name>Dhruvin Patel</name>
+		<AJT>24</AJT>
+		<WT>26</WT>
+		<Dot-Net>28</Dot-Net>
+		<SE>22</SE>
+		<DCDR>24</DCDR>
+		<Total>124</Total>
+	</s>
+	<s>
+		<name>Parth Mehta</name>
+		<AJT>23</AJT>
+		<WT>24</WT>
+		<Dot-Net>22</Dot-Net>
+		<SE>21</SE>
+		<DCDR>18</DCDR>
+		<Total>108</Total>
+	</s>
+	<s>
+		<name>Dhairya Mehta</name>
+		<AJT>15</AJT>
+		<WT>19</WT>
+		<Dot-Net>16</Dot-Net>
+		<SE>16</SE>
+		<DCDR>20</DCDR>
+		<Total>086</Total>
+	</s>
+	<s>
+		<name>Madhvik Patel</name>
+		<AJT>14</AJT>
+		<WT>20</WT>
+		<Dot-Net>21</Dot-Net>
+		<SE>18</SE>
+		<DCDR>24</DCDR>
+		<Total>097</Total>
+	</s>
+</student>
